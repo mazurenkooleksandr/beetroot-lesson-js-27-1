@@ -2,8 +2,6 @@ body {
     background-image: url("../img/pablo\ -\ 2020-11-29T185730.276.png");
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 150px;
-    
 }
 
 .container {
@@ -57,6 +55,7 @@ input::-webkit-inner-spin-button {
 
 ::placeholder {
     text-align: center;
+    font-size: 20px;
 }
 
 input[type='button']  {
