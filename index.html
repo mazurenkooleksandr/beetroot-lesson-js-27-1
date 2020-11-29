@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скільки тобі років?</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p>Хто ти є?</p>
+        </header>
+
+        <img  id="divPhoto" src="./img/kartinki-znak-voprosa-29.jpg" alt="question">
+
+        <p id="divText">Вкажи свій вік нижче</p>
+
+        <form name="ageForm">
+            <input type="number" name="ageIntro" placeholder="Вкажи, будь ласка, свій вік" pattern={0,120}>
+            <input type="button" value="Введи число" onclick="ageFun()">
+        </form>
+    </div>
+
+    <script src="main.js"></script>   
+</body>
+</html>
